@@ -124,7 +124,7 @@
               onChange={saveInputText}
               value = {inputText}
               className = "chat-textbox"
-              onClick={(event) => {
+              onKeyDown={(event) => {
                 if(event.key === 'Enter'){
                   sendMessage();
                 }
