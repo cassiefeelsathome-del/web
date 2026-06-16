@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: absolute;
+    width: 100%;
+    background-color: #634785;
+}
+
+.hamburgerIcon{
+    width: 50px;
+}
+
+main{
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login Modal */
+
+.login-modal-overlay{
+    background-color: #018183;
+    position: fixed;
+    inset: 0;
+
+}
+
+.login-modal{
+    width: 30%;
+    position: relative;
+    top: 30vh;
+    align-self: center;
+    justify-self: center;
+    background: #B9B9B9;
+    padding: 5px;
+    box-shadow: #272727 1px 1px 4px 4px;
+}
+
+.login-page img{
+    margin: 20px 34%;
+    width: 8vh;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.password, .user-selector{
+    margin: 5px 1rem;
+}
+
+
+.login-btns{
+    margin: 1rem 1rem 1rem auto;
+}
+
+.user-selector{
+    background: none;
+    height: 70px;
+    padding: 0;
+
+}
+
+option{
+    margin-left: 2px;
+    padding: 5px 10px;
+}

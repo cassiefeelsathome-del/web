@@ -1,0 +1,24 @@
+html, body {
+    margin: 0 ;
+    padding: 0;
+    background-color: #FFF;
+}
+
+/**/
+.oldagram{
+    width: 127px;
+}
+
+/*layout*/
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+;
+}
